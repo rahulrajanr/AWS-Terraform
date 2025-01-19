@@ -1,4 +1,4 @@
-##############################################################
+###############################################################
 resource "aws_key_pair" "sshkey" {
   key_name   = "tkey"
   public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDw9jnUq6N3RcqFSJdfkdqZMRz5xsgy32zd3FZgKjln0VIO9PZoerOIjRODSj7lCaEHPSRdgkrQwu+n50zdRm0kOzIb9rs3hVDzHqI/pp8BPFp9ehVsn661J/diCkWYHkrx6FV7TY1O63I8nU3TdaqYZT4XBmEM4pcBN389BG1LJxDZtuS1FtyJZcHCRd+kfhCJOHr1vbA5Mh8nvFaV9FIC+OTR9PfGAfx1cLVqWeQfYI7rUznyj00oOM7RhQeCfLj+k33omB21FcKJw48fFA6AEepsz6DUfE1Z+mZ+C/4hvYmCV3HSAfOovkfmYkEQzHQNhISNcAdbC+/s3usd3Ttp fuji@lap"
